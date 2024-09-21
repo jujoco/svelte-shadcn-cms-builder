@@ -31,7 +31,7 @@
 	];
 </script>
 
-<Section id="howItWorks" class="container py-24 text-center sm:py-32">
+<Section id="howItWorks" class="py-24 text-center sm:py-32">
 	<h2 class="text-3xl font-bold md:text-4xl">
 		How It{' '}
 		<span class="bg-gradient-to-b from-accent/60 to-accent bg-clip-text text-transparent">

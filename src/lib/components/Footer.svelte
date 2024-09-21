@@ -32,60 +32,60 @@
 			<div class="flex flex-col gap-2">
 				<h3 class="text-lg font-bold">Follow US</h3>
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Github </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Github </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Twitter </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Twitter </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Dribbble </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Dribbble </a>
 				</div>
 			</div>
 
 			<div class="flex flex-col gap-2">
 				<h3 class="text-lg font-bold">Platforms</h3>
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Web </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Web </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Mobile </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Mobile </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Desktop </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Desktop </a>
 				</div>
 			</div>
 
 			<div class="flex flex-col gap-2">
 				<h3 class="text-lg font-bold">About</h3>
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Features </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Features </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Pricing </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Pricing </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> FAQ </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> FAQ </a>
 				</div>
 			</div>
 
 			<div class="flex flex-col gap-2">
 				<h3 class="text-lg font-bold">Community</h3>
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Youtube </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Youtube </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Discord </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Discord </a>
 				</div>
 
 				<div>
-					<a rel="noreferrer noopener" href="#" class="opacity-60 hover:opacity-100"> Twitch </a>
+					<a rel="noreferrer noopener" href="/" class="opacity-60 hover:opacity-100"> Twitch </a>
 				</div>
 			</div>
 		</div>
