@@ -2,5 +2,7 @@
 </script>
 
 <div class="container mx-auto">
-	<slot />
+	<slot>
+		<p>Center Container Temp text</p>
+	</slot>
 </div>

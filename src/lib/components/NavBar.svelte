@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { Menu, Origami, Sun, Moon } from 'lucide-svelte';
 	import { toggleMode } from 'mode-watcher';
-	import { Button } from '$components/ui/button';
-	import * as Sheet from '$components/ui/sheet';
-	import { CenteredContainer } from '$components/layouts';
+	import { Button } from '@components/ui/button';
+	import * as Sheet from '@components/ui/sheet';
+	import { CenteredContainer } from '@components/layouts';
 
 	let companyName = 'Company name';
 	let routes = [
@@ -31,11 +31,11 @@
 			</a>
 
 			<!-- Mobile View -->
-			<Sheet.Root open>
+			<Sheet.Root>
 				<Sheet.Trigger>
 					<Button class="md:hidden" variant="ghost" size="icon"><Menu /></Button>
 				</Sheet.Trigger>
-				<Sheet.Content side="left">
+				<Sheet.Content>
 					<Sheet.Header>
 						<Sheet.Title>{companyName}</Sheet.Title>
 					</Sheet.Header>

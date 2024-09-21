@@ -4,8 +4,5 @@
 </script>
 
 <header class="header">
-	<h2>{title}</h2>
-	{#if subtitle}
-		<p>{subtitle}</p>
-	{/if}
+	<slot name="title">title placeholder</slot>
 </header>

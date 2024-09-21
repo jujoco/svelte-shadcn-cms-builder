@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Bookings from '$components/features/bookings.svelte';
+	import Bookings from '@components/features/bookings.svelte';
 
 	let title = 'Appointment Page';
 </script>

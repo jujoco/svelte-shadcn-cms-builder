@@ -1,7 +1,7 @@
 <script lang="ts">
-	import * as Card from '$components/ui/card';
-	import CenteredContainer from './layouts/CenteredContainer.svelte';
-	import DynamicFlexLayout from './layouts/DynamicFlexLayout.svelte';
+	import { Avatar, AvatarFallback, AvatarImage } from '@components/ui/avatar';
+	import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@components/ui/card';
+	import Section from './layouts/Section.svelte';
 
 	interface TestimonialProps {
 		image: string;
@@ -56,16 +56,40 @@
 	];
 </script>
 
-<section id="testimonials" class="">
-	<CenteredContainer>
-		<h2 class="mb-8 text-center text-3xl">Testimonials</h2>
-		<DynamicFlexLayout class="">
-			{#each testimonials as testimonial}
-				<Card.Root class="min-w-[200px]">
-					<Card.CardTitle about="testTitle" />
-					<Card.CardContent>test</Card.CardContent>
-				</Card.Root>
-			{/each}
-		</DynamicFlexLayout>
-	</CenteredContainer>
-</section>
+<Section id="testimonials" class="py-24 sm:py-32">
+	<h2 class="text-3xl font-bold md:text-4xl">
+		Discover Why
+		<span class="bg-gradient-to-b from-accent/60 to-accent bg-clip-text text-transparent">
+			{' '}
+			People Love{' '}
+		</span>
+		This Landing Page
+	</h2>
+
+	<p class="pb-8 pt-4 text-xl text-muted-foreground">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error facere hic reiciendis
+		illo
+	</p>
+
+	<div
+		class="mx-auto grid columns-2 space-y-4 sm:block md:grid-cols-2 lg:columns-3 lg:grid-cols-4 lg:gap-6 lg:space-y-6"
+	>
+		{#each testimonials as { image, name, userName, comment }}
+			<Card class="max-w-md overflow-hidden md:break-inside-avoid">
+				<CardHeader class="flex flex-row items-center gap-4 pb-2">
+					<Avatar>
+						<AvatarImage alt="" src={image} />
+						<AvatarFallback>OM</AvatarFallback>
+					</Avatar>
+
+					<div class="flex flex-col">
+						<CardTitle class="text-lg">{name}</CardTitle>
+						<CardDescription>{userName}</CardDescription>
+					</div>
+				</CardHeader>
+
+				<CardContent>{comment}</CardContent>
+			</Card>
+		{/each}
+	</div>
+</Section>
