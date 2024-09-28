@@ -37,11 +37,14 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.36.0",
 		"globals": "^15.0.0",
+		"postcss": "^8.4.47",
+		"postcss-load-config": "^6.0.1",
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.1.2",
 		"prettier-plugin-tailwindcss": "^0.6.5",
 		"svelte": "^4.2.7",
 		"svelte-check": "^4.0.0",
+		"svelte-preprocess": "^6.0.3",
 		"tailwindcss": "^3.4.9",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.0.0",
@@ -50,10 +53,13 @@
 	"dependencies": {
 		"bits-ui": "^0.21.13",
 		"clsx": "^2.1.1",
+		"formsnap": "^1.0.1",
 		"lucide-svelte": "^0.438.0",
 		"mode-watcher": "^0.4.1",
+		"sveltekit-superforms": "^2.19.0",
 		"tailwind-merge": "^2.5.2",
 		"tailwind-variants": "^0.2.1",
-		"vaul-svelte": "^0.3.2"
+		"vaul-svelte": "^0.3.2",
+		"zod": "^3.23.8"
 	}
 }
