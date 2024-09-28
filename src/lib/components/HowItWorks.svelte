@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Card, CardContent, CardHeader, CardTitle } from '@components/ui/card';
-	import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from '@components/svg';
+	import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+	import { MedalIcon, MapIcon, PlaneIcon, GiftIcon } from '@/components/svg';
 	import Section from './layouts/Section.svelte';
 
 	const features = [
@@ -45,7 +45,7 @@
 
 	<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
 		{#each features as { icon, title, description }}
-			<Card class="bg-muted/50">
+			<Card>
 				<CardHeader>
 					<CardTitle class="grid place-items-center gap-4">
 						<svelte:component this={icon} />

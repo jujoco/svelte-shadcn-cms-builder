@@ -1,14 +1,14 @@
 <script lang="ts">
-	import { Input } from '@components/ui/input';
-	import { Button } from '@components/ui/button';
-	import Section from '@components/layouts/Section.svelte';
+	import { Input } from '@/components/ui/input';
+	import { Button } from '@/components/ui/button';
+	import Section from '@/components/layouts/Section.svelte';
 
 	function handleSubmit() {
 		console.log('logged');
 	}
 </script>
 
-<Section id="newsletter">
+<Section id="newsletter" class="bg-card">
 	<hr />
 	<div class="py-24 sm:py-32">
 		<h3 class="text-center text-4xl font-bold md:text-5xl">
@@ -25,11 +25,7 @@
 			class="mx-auto flex w-full flex-col gap-4 md:w-6/12 md:flex-row md:gap-2 lg:w-4/12"
 			on:submit|preventDefault={handleSubmit}
 		>
-			<Input
-				placeholder="leomirandadev@gmail.com"
-				class="bg-muted/50 dark:bg-muted/80 "
-				aria-label="email"
-			/>
+			<Input placeholder="leomirandadev@gmail.com" class="dark:bg-muted/80 " aria-label="email" />
 			<Button>Subscribe</Button>
 		</form>
 	</div>

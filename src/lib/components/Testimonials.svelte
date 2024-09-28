@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Avatar, AvatarFallback, AvatarImage } from '@components/ui/avatar';
-	import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@components/ui/card';
+	import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+	import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 	import Section from './layouts/Section.svelte';
 
 	interface TestimonialProps {

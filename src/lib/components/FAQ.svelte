@@ -4,8 +4,8 @@
 		AccordionItem,
 		AccordionContent,
 		AccordionTrigger
-	} from '@components/ui/accordion';
-	import Section from '@components/layouts/Section.svelte';
+	} from '@/components/ui/accordion';
+	import Section from '@/components/layouts/Section.svelte';
 
 	interface FAQProps {
 		question: string;

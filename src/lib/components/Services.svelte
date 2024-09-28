@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Card, CardDescription, CardHeader, CardTitle } from '@components/ui/card';
-	import cubeLeg from '@lib/images/cube-leg.png';
-	import { MagnifierIcon } from '@components/svg';
+	import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+	import cubeLeg from '@/images/cube-leg.png';
+	import { MagnifierIcon } from '@/components/svg';
 
 	const serviceList = [
 		{

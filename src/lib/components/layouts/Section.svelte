@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { cn } from '@lib/utils';
-	import CenteredContainer from './CenteredContainer.svelte';
+	import { cn } from "@/utils";
+	import CenteredContainer from "./CenteredContainer.svelte";
 
 	export let id: string | undefined = undefined;
 	let className: string | undefined = undefined;
@@ -9,6 +9,8 @@
 
 <section {id} class={cn(className)}>
 	<CenteredContainer>
-		<slot />
+		<slot>
+			<p>Default Placeholder copy</p>
+		</slot>
 	</CenteredContainer>
 </section>

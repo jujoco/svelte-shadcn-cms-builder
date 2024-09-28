@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { Badge } from '@components/ui/badge';
-	import { Button } from '@components/ui/button';
+	import { Badge } from '@/components/ui/badge';
+	import { Button } from '@/components/ui/button';
 	import {
 		Card,
 		CardContent,
@@ -8,7 +8,7 @@
 		CardFooter,
 		CardHeader,
 		CardTitle
-	} from '@components/ui/card';
+	} from '@/components/ui/card';
 
 	import { Check } from 'lucide-svelte';
 	import Section from './layouts/Section.svelte';
@@ -29,9 +29,9 @@
 
 	const pricingList: PricingProps[] = [
 		{
-			title: 'Free',
+			title: 'Basic',
 			popular: 0,
-			price: 0,
+			price: 1200,
 			description: 'Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.',
 			buttonText: 'Get Started',
 			benefitList: [
@@ -45,7 +45,7 @@
 		{
 			title: 'Premium',
 			popular: 1,
-			price: 5,
+			price: 3000,
 			description: 'Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.',
 			buttonText: 'Start Free Trial',
 			benefitList: [
@@ -57,9 +57,9 @@
 			]
 		},
 		{
-			title: 'Enterprise',
+			title: 'All Inclusive',
 			popular: 0,
-			price: 40,
+			price: 6000,
 			description: 'Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.',
 			buttonText: 'Contact US',
 			benefitList: [

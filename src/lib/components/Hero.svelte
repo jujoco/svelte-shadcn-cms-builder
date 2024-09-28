@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { Button, buttonVariants } from '@components/ui/button';
-	import { Avatar, AvatarFallback, AvatarImage } from '@components/ui/avatar';
-	import { Badge } from '@components/ui/badge';
+	import { Button, buttonVariants } from '@/components/ui/button';
+	import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+	import { Badge } from '@/components/ui/badge';
 	import {
 		Card,
 		CardContent,
@@ -9,9 +9,9 @@
 		CardHeader,
 		CardTitle,
 		CardFooter
-	} from '@components/ui/card';
+	} from '@/components/ui/card';
 	import { Check, Linkedin, Github } from 'lucide-svelte';
-	import { LightBulbIcon } from '@components/svg';
+	import { LightBulbIcon } from '@/components/svg';
 </script>
 
 <section class="container grid place-items-center gap-10 py-20 md:py-32 lg:grid-cols-2">
@@ -213,6 +213,7 @@
 		height: 400px;
 		filter: blur(150px);
 		animation: shadow-slide infinite 4s linear alternate;
+		will-change: transform;
 	}
 
 	@keyframes shadow-slide {

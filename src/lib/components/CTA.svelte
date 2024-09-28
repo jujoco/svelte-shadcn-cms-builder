@@ -3,8 +3,9 @@
 	import { Button } from './ui/button';
 </script>
 
-<Section id="cta" class="my-24 bg-muted/50 py-16 sm:my-32">
-	<div class="place-items-center lg:grid lg:grid-cols-2">
+<Section id="cta" class="my-24 bg-card sm:my-32">
+	<hr />
+	<div class="place-items-center py-16 lg:grid lg:grid-cols-2">
 		<div class="lg:w-3/4">
 			<h2 class="text-3xl font-bold md:text-4xl">
 				All Your
@@ -25,4 +26,5 @@
 			<Button variant="outline" class="w-full md:w-auto">View all features</Button>
 		</div>
 	</div>
+	<hr />
 </Section>

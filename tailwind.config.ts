@@ -9,12 +9,12 @@ const config: Config = {
 	plugins: [twTypography],
 	theme: {
 		container: {
-      center: true,
-      padding: "1.5rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
+			center: true,
+			padding: '1.5rem',
+			screens: {
+				'2xl': '1400px'
+			}
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border) / <alpha-value>)',

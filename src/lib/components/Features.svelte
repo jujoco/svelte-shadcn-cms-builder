@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { Badge } from '@components/ui/badge';
-	import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@components/ui/card';
-	import image from '@lib/images/growth.png';
-	import image3 from '@lib/images/reflecting.png';
-	import image4 from '@lib/images/looking-ahead.png';
+	import { Badge } from '@/components/ui/badge';
+	import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+	import image from '@/images/growth.png';
+	import image3 from '@/images/reflecting.png';
+	import image4 from '@/images/looking-ahead.png';
 	import Section from './layouts/Section.svelte';
 
 	interface FeatureProps {
@@ -58,7 +58,7 @@
 		<div class="flex flex-wrap gap-4 md:justify-center">
 			{#each featureList as feature}
 				<div>
-					<Badge variant="secondary" class="text-sm">
+					<Badge variant="default" class="text-sm">
 						{feature}
 					</Badge>
 				</div>

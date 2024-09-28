@@ -1,5 +1,5 @@
 <script lang="ts">
-	import pilot from '@lib/images/pilot.png';
+	import pilot from '@/images/pilot.png';
 	import Section from './layouts/Section.svelte';
 
 	const stats = [
@@ -22,8 +22,8 @@
 	];
 </script>
 
-<Section id="about" class="py-24 sm:py-32">
-	<div class="rounded-lg border bg-muted/50 py-12">
+<Section id="about" class="sm:py-30 py-24">
+	<div class="rounded-lg border bg-card py-12">
 		<div class="flex flex-col-reverse gap-8 px-6 md:flex-row md:gap-12">
 			<img src={pilot} alt="" class="w-[300px] rounded-lg object-contain" />
 			<div class="bg-green-0 flex flex-col justify-between">

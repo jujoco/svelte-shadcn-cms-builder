@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { buttonVariants } from '@components/ui/button';
+	import { buttonVariants } from '@/components/ui/button';
 	import {
 		Card,
 		CardContent,
@@ -7,7 +7,7 @@
 		CardFooter,
 		CardHeader,
 		CardTitle
-	} from '@components/ui/card';
+	} from '@/components/ui/card';
 	import { Facebook, Instagram, Linkedin } from 'lucide-svelte';
 	import Section from './layouts/Section.svelte';
 
@@ -123,7 +123,7 @@
 
 	<div class="grid gap-8 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
 		{#each teamList as { imageUrl, name, position, socialNetworks }}
-			<Card class="relative mt-8 flex flex-col items-center justify-center bg-muted/50">
+			<Card class="relative mt-8 flex flex-col items-center justify-center">
 				<CardHeader class="mt-8 flex items-center justify-center pb-2">
 					<img
 						src={imageUrl}

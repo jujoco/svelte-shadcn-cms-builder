@@ -1,23 +1,27 @@
 <script lang="ts">
-	import { Menu, Origami, Sun, Moon } from 'lucide-svelte';
-	import { toggleMode } from 'mode-watcher';
-	import { Button } from '@components/ui/button';
-	import * as Sheet from '@components/ui/sheet';
-	import { CenteredContainer } from '@components/layouts';
+	import { Menu, Origami, Sun, Moon } from "lucide-svelte";
+	import { toggleMode } from "mode-watcher";
+	import { Button } from "@/components/ui/button";
+	import * as Sheet from "@/components/ui/sheet";
+	import { CenteredContainer } from "@/components/layouts";
 
-	let companyName = 'Company name';
+	let companyName = "Company name";
 	let routes = [
 		{
-			href: '#services',
-			label: 'Services'
+			href: "services",
+			label: "Services"
 		},
 		{
-			href: 'pricing',
-			label: 'Pricing'
+			href: "pricing",
+			label: "Pricing"
 		},
 		{
-			href: 'blog',
-			label: 'Blob'
+			href: "blog",
+			label: "Blob"
+		},
+		{
+			href: "contact",
+			label: "Contact Us"
 		}
 	];
 </script>
